@@ -21,3 +21,7 @@ curl -sS https://getcomposer.org/installer -o composer-setup.php
 https://getcomposer.org/download/ (copy 2 line with hash)
 
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer 
+
+# Composer - create json file
+
+composer require vendor/package

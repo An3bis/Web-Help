@@ -25,3 +25,11 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # Composer - create json file
 
 composer require vendor/package
+
+# Composer - set-up Laravel
+
+composer global require laravel/installer
+
+# Laravel - create site
+
+sudo composer create-project --prefer-dist laravel/laravel blog

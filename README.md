@@ -1,3 +1,6 @@
+# Start VSCode as root
+sudo code --user-data-dir="~/.vscode-root"
+
 # MySQL - Create new user
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 
